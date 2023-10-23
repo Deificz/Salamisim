@@ -1,7 +1,9 @@
 import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
 
-type Props = {}
+type Props = {
+  
+}
 
 const intro_1 = (props: Props) => {
   return (
