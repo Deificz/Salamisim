@@ -10,7 +10,6 @@ const Stack = createNativeStackNavigator();
 
 function Router() {
   return (
-    <NavigationContainer>
       <Stack.Navigator initialRouteName="intro_1">
         <Stack.Screen
           name="intro_1"
@@ -28,8 +27,6 @@ function Router() {
           options={{ headerShown: false }}
         />
       </Stack.Navigator>
-    </NavigationContainer>
-    
   );
 }
 
