@@ -10,7 +10,7 @@ const Stack = createNativeStackNavigator();
 
 function Router() {
   return (
-      <Stack.Navigator initialRouteName="intro_1">
+      <Stack.Navigator initialRouteName="intro_3">
         <Stack.Screen
           name="intro_1"
           component={intro_1}
