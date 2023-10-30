@@ -27,8 +27,8 @@ const intro = (props: Props) => {
         <View className={`rounded-full  ${props.pageNum === 3 ?  'bg-cyan-700' : 'bg-slate-300'} h-[15px] w-[15px] `} />
       </View>
 
-      <TouchableOpacity className="mb-10 p-5 bg-cyan-700 w-[80%] text-center text-white font-bold text-2xl rounded-3xl">
-        Next
+      <TouchableOpacity className="flex justify-center items-center mb-10 p-5 bg-cyan-700 w-[80%] text-2xl rounded-3xl">
+        <Text className="font-bold text-center text-white text-2xl font-bold">Next</Text>
       </TouchableOpacity>
     </View>
   );
